@@ -151,7 +151,7 @@ function App() {
               </Form.Group>
             </Col>
           </Row>
-          <Button className='mt-4 see-prices-btn' onClick={handleSeePricesClick}>
+          <Button className='mt-5 see-prices-btn' onClick={handleSeePricesClick}>
             SEE PRICES
           </Button>
         </Form>
