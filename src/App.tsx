@@ -251,7 +251,7 @@ function App() {
         </Form.Group>
         <Row className='mt-4'>
           {selectedStretcherBar &&
-          /* @ts-ignore */
+            /* @ts-ignore */
             stretcherBars[selectedStretcherBar].map((item, index) => (
               <Col key={index} xs={4} sm={4} md={3} lg={3}>
                 <Card className='mb-4 text-center stretcher-card'>
