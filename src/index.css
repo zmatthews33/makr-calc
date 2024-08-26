@@ -72,8 +72,12 @@ button:focus-visible {
 
 .calc-card {
   border-radius: 0;
+  background-color: #403f3f;
+  color: #ffffff;
 }
-
+label {
+  font-family: serif;
+}
 input,
 select {
   border-radius: 0 !important;
@@ -94,6 +98,10 @@ hr {
   opacity: 0.75;
 }
 
+.error-message {
+  color: #ff0000;
+}
+
 .calculator-wrapper {
   color: #403f3f;
   border: 1px solid #403f3f;
@@ -105,6 +113,7 @@ hr {
 
 .stretcher-wrapper {
   text-align: center;
+  max-width: 627px;
 }
 
 .see-prices-btn {
@@ -114,8 +123,8 @@ hr {
   opacity: 1;
   font-weight: 600;
   font-family: "Archivo Black", sans-serif;
-  padding: 0.5rem 1rem;
-  font-size: 1.15rem;
+  padding: 0.5rem 37.408px;
+  font-size: 1rem;
 }
 
 .see-prices-btn:hover {
@@ -124,15 +133,14 @@ hr {
   border-radius: 0;
   color: #ffffff;
   opacity: 0.8;
-  padding: 0.5rem 1rem;
 }
 
 .see-prices-btn:active {
-  background-color: #f26625;
-  border-color: #f26625;
+  background-color: #f26625 !important;
+  border-color: #f26625 !important;
   border-radius: 0;
   color: #ffffff;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .stretcher-card {
