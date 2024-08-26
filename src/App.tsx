@@ -15,9 +15,9 @@ const data = {
     { subCategory: "3D Metis 600dpi Texture Scan", min: 40.0, costPerSqInch: 0.25 }
   ],
   "Fine Art Prints": [
-    { subCategory: "Print Only 2D - Satin Finished Canvas", min: 15.0, costPerSqInch: 0.015 },
-    { subCategory: "Print Only - Standard Texture", min: 50.0, costPerSqInch: 0.25 },
-    { subCategory: "3D Metis 600dpi Texture Scan", min: 75.0, costPerSqInch: 0.35 }
+    { subCategory: "Print Only 2D - Aurora Canvas or Museum Etching Paper", min: 15.0, costPerSqInch: 0.15 },
+    { subCategory: "Print Only - Standard Texture - Aurora Canvas", min: 50.0, costPerSqInch: 0.25 },
+    { subCategory: "Print-Only- High Texture - Aurora Canvas", min: 75.0, costPerSqInch: 0.35 }
   ]
 }
 
