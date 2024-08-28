@@ -162,7 +162,6 @@ function App() {
     <Container>
       <Container className='calculator-wrapper'>
         <h1 className='my-4'>Price Estimator</h1>
-
         <Form>
           <Row>
             <Form.Group controlId='formCategory'>
@@ -237,7 +236,7 @@ function App() {
       </Container>
       <hr />
       <Container className='stretcher-wrapper'>
-        <h2>Stretched Canvas Prices</h2>
+        <h2>Stretcher Bar Pricing</h2>
         <Form.Group controlId='formStretcherBar'>
           <Form.Label>Select Stretcher Bar Depth:</Form.Label>
           <Form.Select size='lg' onChange={handleStretcherBarChange} value={selectedStretcherBar}>

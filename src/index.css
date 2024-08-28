@@ -107,7 +107,7 @@ hr {
   border: 1px solid #403f3f;
   text-align: center;
   padding: 1rem 3rem 3rem;
-  width: 100%;
+  min-width: 100%;
   margin: 2rem auto;
 }
 
@@ -148,4 +148,14 @@ hr {
   background-color: #403f3f;
   color: #ffffff;
   padding: 0rem 1rem;
+}
+
+.card-title {
+  margin-right: -2rem;
+  margin-left: -2rem;
+}
+
+.card-text {
+  margin-right: -2rem;
+  margin-left: -2rem;
 }
