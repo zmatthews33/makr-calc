@@ -171,3 +171,7 @@ hr {
   color: #f26625;
   text-decoration: inherit;
 }
+
+.calc-container-main {
+  min-height: 1777px;
+}
