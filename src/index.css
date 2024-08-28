@@ -159,3 +159,15 @@ hr {
   margin-right: -2rem;
   margin-left: -2rem;
 }
+
+.email-link {
+  font-weight: 600;
+  color: #212529;
+  text-decoration: inherit;
+}
+
+.email-link:hover {
+  font-weight: 600;
+  color: #f26625;
+  text-decoration: inherit;
+}

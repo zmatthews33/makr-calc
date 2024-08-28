@@ -262,6 +262,17 @@ function App() {
               </Col>
             ))}
         </Row>
+        <br />
+        <Row>
+          <p>
+            Pricing Calculator provides an estimated cost based on specific materials and processes. Please Contact MAKR
+            Studios at{" "}
+            <a className='email-link' href='mailto:info@makrcomms.com'>
+              info@makrcomms.com
+            </a>{" "}
+            for final estimates.{" "}
+          </p>
+        </Row>
       </Container>
     </Container>
   )
